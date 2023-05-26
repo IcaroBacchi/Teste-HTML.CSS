@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="/Prova-html-css/assest/css/style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="div1">
+            <h1 class="title">[Ebook] Guia do HTML e CSS</h1>
+            <p class="text">Dê seus primeiros passos com desenvolvimento Web e aprenda a criar uma página do ZERO!</p>
+            <img src="Imagem.jpg" class="imagem">
+        </div>
+        <form class="formulario">
+            <div class="div2">
+                <h2 class="title-form">Faça o download grátis aqui</h2>
+                <p class="text-form">Preencha o formulário abaixo para acessar o ebook</p>
+                <label class="label">Nome*</label>
+                <input class="input" type="text" name="name" id="name">
+                <label class="label">Email*</label>
+                <input class="input" type="email" name="email" id="email">
+                <label class="label">Profissionalmente, você se consedera.*</label>
+                <select class="select" name="item" id="item">
+                    <option value="Selecione">Selecione</option>
+                    <option value="junior">Junior</option>
+                    <option value="master">Master</option>
+                </select>
+                <label class="label">Qual é o seu objetivo?*</label>
+                <select class="select" name="objetivo" id="objetivo">
+                    <option value="Selecione">Selecione</option>
+                    <option value="FS">Full stack</option>
+                    <option value="FE">Front-end</option>
+                    <option value="BE">Back-end</option>
+                </select>
+                <label class="label">Você possui interesse em iniciar um curso online?*</label>
+                <input type="radio" name="positivo" value="Sim">
+                <span>Sim</span>
+                <input class="input" type="radio" name="negativo" value="Não">
+                <span>Não</span>
+                <label class="label">7 + 8 = ?</label>
+                <input class="input" type="text" name="number" id="number">
+                <button class="button">Aprender HTML e CSS agora!</button>
+                <span class="span-text">Prometemos não utilizar suas informações de contato pra enviar qualquer tipo de SPAN</span>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
